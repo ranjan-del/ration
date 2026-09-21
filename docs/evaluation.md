@@ -61,10 +61,33 @@ Every part of that sentence comes from the ledger.
 
 ## Task suites
 
-Chosen for what each one can falsify, not for what it is likely to show. Selection and the reason for
-each is phase 0 work and is recorded here when complete.
+Chosen for what each one can falsify, not for what it is likely to show.
 
-Candidate families under consideration, with what each tests:
+### Phase 1: code understanding over a repository
+
+Chosen on 2026-09-22 and fixed before the selector was written, because a suite chosen after seeing
+results is not evidence.
+
+| Property | Why it was chosen for this |
+|---|---|
+| Available information vastly exceeds any context window | This is the actual phase 1 condition, not a simulation of it |
+| Ground truth is derivable exactly from the syntax tree | No language model grades anything, so the numbers carry no judge variance and the suite runs offline |
+| The oracle is exact rather than approximate | The oracle gap is the headline result, and an approximate oracle would make every method look better or worse than it is |
+| Units are natural | One item per function, method or class, rather than arbitrary character windows |
+| The task is checkable by eye | A number that looks wrong can be traced to a specific question and a specific file |
+
+Four question kinds, all with exact answers: which file defines a symbol, its parameters in order,
+which functions call it, and which module an imported name came from. Generated from a repository
+pinned by commit, with the corpus repository chosen as one the engineer did not write, so the model
+has no unfair familiarity advantage.
+
+Stated limit, which belongs beside the result and not in a footnote: four syntactic question kinds
+over one Python repository is narrow evidence. A result here does not transfer to multi hop
+reasoning or to long horizon conversation without being measured there.
+
+### Later phases
+
+Candidate families, with what each tests:
 
 | Family | Tests |
 |---|---|

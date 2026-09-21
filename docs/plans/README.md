@@ -7,4 +7,5 @@ A plan lands here only once the phase it covers has an exit criterion in
 
 | Plan | Status |
 |---|---|
-| `phase-1.md` | Not written yet. Blocked on choosing the task suites and the oracle construction, both recorded as open questions in [the design specification](../design/2026-09-22-ration-design.md) |
+| [`phase-1.md`](phase-1.md) | Written 2026-09-22. 14 tasks. Closes two of the design specification's open questions: the task suite is code understanding over a repository, and the oracle is constructed per question kind from the syntax tree |
+| `phase-2.md` | Not written. Blocked on the phase 1 result, because phase 2's design depends on where the phase 1 frontier actually lands |

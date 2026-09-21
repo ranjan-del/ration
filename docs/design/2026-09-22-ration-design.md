@@ -112,10 +112,10 @@ Carried forward rather than resolved, and tracked in the local memory file.
 
 | Question | Blocks | Notes |
 |---|---|---|
-| Which task suites, and the reason for each | Phase 1 exit criterion | Candidates and what each falsifies are listed in [evaluation.md](../evaluation.md). The choice needs to be made before the selector is written, because a suite chosen after seeing results is not evidence |
+| ~~Which task suites, and the reason for each~~ | Closed 2026-09-22 | Code understanding over a repository, fixed before the selector was written. Reason recorded in [evaluation.md](../evaluation.md) |
 | What the sufficiency signal actually is | Phase 3, and the `Verdict` contract | Options range from asking the model directly to inferring from answer confidence to a separate verifier. Each has a different cost, and the cost is part of the result |
-| How the oracle selector is constructed per task family | Phase 1 | An oracle that is too generous makes every method look bad, and one that is too weak makes every method look good |
-| Whether energy is measurable well enough on the primary platform to report | Phase 1 meter | If not, the field stays null under ADR 0004 |
+| ~~How the oracle selector is constructed per task family~~ | Closed 2026-09-22 | Exact, derived from the syntax tree, one construction per question kind. Specified in [the phase 1 plan](../plans/phase-1.md) task 8 |
+| ~~Whether energy is measurable well enough on the primary platform to report~~ | Closed 2026-09-22 | It is not. `energy_j` is absent from the Apple profile's measurable list and stays null, under ADR 0004 |
 | Amending the Loomrun roadmap for the seam in ADR 0002 | Nothing here | Owed to that repository, not done by this decision |
 
 ## 7. Self review
