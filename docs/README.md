@@ -21,3 +21,14 @@
 | [0003](adr/0003-measurement-inside-the-kernel.md) | Measurement lives inside the kernel, not in a separate harness |
 | [0004](adr/0004-hardware-profiles-and-null.md) | Every record carries a hardware profile, unmeasurable values are null, and profiles are never compared |
 | [0005](adr/0005-plan-is-data.md) | Plan is versioned data. Phases add fields, not code paths |
+
+## Flagship standard documents
+
+Added for the flagship documentation standard (see the README section "Project documentation"). Each is a stub until filled in.
+
+| Document | Status |
+|---|---|
+| [cost.md](cost.md) | partial |
+| [deployment.md](deployment.md) | to be written |
+| [failure-cases.md](failure-cases.md) | to be written |
+| [trade-offs.md](trade-offs.md) | partial |

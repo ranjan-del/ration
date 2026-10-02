@@ -37,8 +37,9 @@
 12. [Relationship to other projects](#relationship-to-other-projects)
 13. [Prior art](#prior-art)
 14. [Repository layout](#repository-layout)
-15. [Contributing](#contributing)
-16. [License](#license)
+15. [Project documentation](#project-documentation)
+16. [Contributing](#contributing)
+17. [License](#license)
 
 ---
 
@@ -281,6 +282,23 @@ docs/
 The `packages/` tree is described by the phase 1 plan and does not exist yet.
 
 ---
+
+## Project documentation
+
+Every flagship repository documents the same ten things. Status shows what exists today.
+
+| Section | Document | Status |
+|---|---|---|
+| README | [README.md](README.md) | Written |
+| Architecture | [docs/architecture.md](docs/architecture.md) | Written |
+| Design decisions | [docs/adr/](docs/adr/) | Written |
+| Benchmarks | [docs/benchmarks/README.md](docs/benchmarks/README.md) | Written |
+| Failure cases | [docs/failure-cases.md](docs/failure-cases.md) | To be written |
+| Evaluation | [docs/evaluation.md](docs/evaluation.md) | Written |
+| Trade-offs | [docs/trade-offs.md](docs/trade-offs.md) | Partial |
+| Deployment | [docs/deployment.md](docs/deployment.md) | To be written |
+| Cost | [docs/cost.md](docs/cost.md) | Partial |
+| Future work | [ROADMAP.md](ROADMAP.md) | Written |
 
 ## Contributing
 

@@ -7,6 +7,7 @@ The format follows Keep a Changelog, and this project adheres to Semantic Versio
 
 ### Added
 
+- Flagship documentation standard: a "Project documentation" table in the README covering README, Architecture, Design decisions, Benchmarks, Failure cases, Evaluation, Trade-offs, Deployment, Cost and Future work, with stub documents for the sections not yet written
 - Problem statement, non goals, and the conditions that would falsify the thesis
 - Landscape review of prior art across nine research directions, with the specific measurable gap
   stated for each and sources listed
